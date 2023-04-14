@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <header> 
+  <button> View Upcoming Conferences </button> 
+  <input type="button" onclick="window.location.href='https://validator.nu/';"value = "Nu Validator" />
+  <h1><b> National Society of Coding </b></h1>
+  <h2> 2023 SE Regional Conference Registration </h2>
+  </header>
+  
+  <h3 class="card-title">Add Registration Details Below</h3>
+  
+  <div class="content">
+  
+    
+    <form>
+      <p>
+		<label>
+		Salutation
+		<br />
+		<select name="salutation">
+			<option>--None--</option>
+			<option>Mr.</option>
+			<option>Ms.</option>
+			<option>Mrs.</option>
+			<option>Dr.</option>
+			<option>Prof.</option>
+		</select>
+		</label>
+	</p>
+  
+      <p>
+		<label>First Name: <input name="firstName" placeholder="First name"/></label>
+	</p>
+  
+      <p>
+		<label>Last Name: <input name="lastName" placeholder= "Last name"/></label>
+	</p>
+            
+      <p>
+		Gender :
+       <label><input type="radio" name="gender" value="male" />Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female </label>
+  <label><input type="radio" name="gender" value="Prefer Not to Specify"/> Prefer Not to Specify</label>
+	</p>
+      
+<p>
+		<label>Date of Birth:<input type="date" name="birthDate"></label>
+	</p>
+      
+      <p>
+     <label for="street-address">Street Address:</label>
+        <input type="text" id="street-address" name="street-address" autocomplete="street-address" required enterkeyhint="next"></input> 
+    
+    </p>
+  
+  <p>
+    <div>
+        <label for="city">City:</label>
+        <input required type="text" id="city" name="city" autocomplete="address-level2" enterkeyhint="next">
+      </div>
+  </p>
+  
+  <p>
+     <div>
+        <label for="postal-code">ZIP/Postal Code:</label>
+        <input class="postal-code" id="postal-code" name="postal-code" autocomplete="postal-code" enterkeyhint="next">
+      </div>
+  </p>
+    
+    <p>
+		<label>Email:<input type="email" name="email" placeholder="Enter email"/></label>
+	</p>
+     
+<p>
+   <label for="pwd" class="form-label">Password:</label>
+        <input type="password" id="myInput" placeholder="Create password" name="pswd" required>
+  <input type="checkbox" onClick="myFunction()" >Show Password
+</p>
+
+<p>
+		<label>
+		Food and/or Allergy Restrictions:
+		<br />
+		<textarea name="address" cols="30" rows="3" placeholder="Please specify any dietary restrictions here."  ></textarea>
+		</label>
+	</p>
+</div>
+ 
+<p>
+<button type="submit"  class="btn btn-primary"> Submit Here </button>
+</p>
+</form>
+

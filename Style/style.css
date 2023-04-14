@@ -1,0 +1,15 @@
+header{
+background-color:lightblue;
+}
+
+.content {
+  border: 2px;
+  border-color: grey; 
+  border-style: solid;
+}
+
+
+label,input{
+    display: block;
+} 
+/*can't figure out how to make radio labels inline display instead of block */
